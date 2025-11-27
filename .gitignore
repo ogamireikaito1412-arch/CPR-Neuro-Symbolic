@@ -1,0 +1,24 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Environment Variables (CRITICAL: Protects Secrets) ---
+.env
+.env.local
+config.py  # ONLY if it contains real keys. If it's just settings, remove this line.
+
+# --- IDEs (VS Code / Cursor / Windsurf) ---
+.vscode/
+.idea/
+.cursor/
+*.swp
+
+# --- Operating System Garbage ---
+.DS_Store
+Thumbs.db
